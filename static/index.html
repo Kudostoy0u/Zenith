@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+  <title>Zenith tutoring</title>
+  <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="favicon.png" alt="Zenith" width="30" height="30" class="d-inline-block align-text-top logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div class="d-flex align-items-center">
+      <a href="#"><script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support us', '#000000', 'T6T4O6WG9');kofiwidget2.draw();</script> </a>
+    </div>
+  </div>
+</nav>
+
+
+
+<div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6 content text-center">
+        <h1 class="display-3">Zenith Perspective</h1>
+        <p class="lead">Free, One-on-One Tutoring @ 95th street library</p>
+      </div>
+    </div>
+  </div>
+<div class="bg-light">
+ <section id="about" class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 ">
+          <h2 class = "text-bold">About Us</h2>
+        <p>Zenith Perspective is a non profit organization dedicated towards educating and guiding K-12 students through the STEM and Business fields. We are a peer tutoring organization, conducting a plethora of workshops and tutoring sessions (see services). Our goal is to give back to the community the gift of knowledge.</p>
+<p>We have a vast library of educational content to help students excel through high school academics and extracurricular activities and prepare for university.</p>
+<p>We also conduct philanthropical activities. Some of our deeds include donating masks to healthcare workers and raising funds for a COVID relief programs.</p>
+          <!-- Add more content about yourself here -->
+        </div>
+      </div>
+    </div>
+  </section>
+<section id="services" class="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 ">
+          <h2 class = "text-bold">Services</h2>
+        <p>We provide free tutoring every Monday at 95th street library. Want tutoring, or want to become a tutor? Fill out the form below, and we'll contact you shortly.</p>
+        <form id="registrationForm">
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="role" class="form-label">Role</label>
+              <select class="form-select" id="role" name="role" required>
+                <option value="" disabled selected>Select your role</option>
+                <option value="student">Student</option>
+                <option value="tutor">Tutor</option>
+              </select>
+            </div>
+<div class="mb-3">
+  <label for="subject" class="form-label">Subject</label>
+  <textarea placeholder = "If you want to be a tutor, tell us about yuorself and what subject you want to tutor. If you want tutoring, tell us what you need help with" class="form-control" id="subject" name="subject" rows="4" required></textarea>
+</div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+            <div id="successMessage" class="alert alert-success mt-3" style="display: none;">
+    Form submission successful! Thank you.
+  </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<section id="contact" class="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 ">
+          <h2 class = "text-bold">Contact</h2>
+      <p>Any questions or suggestions? Contact us via our <a href = "https://discord.gg/VSecGGWjQ">Discord</a> or our <a href = "mailto:urmom@dot.com">Email</a></p>
+
+      </div>
+    </div>
+  </section>
+</div>
+  <div class="bottom-bar bg-dark text-light text-center py-2">
+    &copy; 2023 Zenith Perspective
+</div>
+
+<script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
